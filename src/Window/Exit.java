@@ -6,17 +6,18 @@ import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 
 public class Exit {
+
     JPanel PanelExit;
     JLabel Exit;
     ImageIcon iconExit;
 
     public Exit() {
         //Thêm icon
-        iconExit = new ImageIcon(new ImageIcon("image\\Exit.png").getImage().getScaledInstance(40, 40, Image.SCALE_SMOOTH));
+        iconExit = new ImageIcon(new ImageIcon("C:\\Users\\TRUYEN\\Desktop\\QuanLyNhaHang\\src\\image\\Exit.png").getImage().getScaledInstance(40, 40, Image.SCALE_SMOOTH));
 
         //Tạo giao diện + chức năng Exit
         PanelExit = new JPanel();
-        PanelExit.setPreferredSize(new Dimension(260, 60));
+        PanelExit.setPreferredSize(new Dimension(300, 60));
         PanelExit.setLayout(new BoxLayout(PanelExit, BoxLayout.X_AXIS));
         Exit = new JLabel("Thoát");
         Exit.setIcon(iconExit);

@@ -1,12 +1,11 @@
 package MainClass;
 
-
-import LoginAndRegistration.Login;
-import Window.mainframe;
+import Login.Login;
 
 public class Main {
+
     public static void main(String[] args) {
-//        new Login();
-        new mainframe().setVisible(true);
+        new Login().setVisible(true);
+
     }
 }
